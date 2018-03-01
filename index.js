@@ -7,6 +7,7 @@ function happyHolidaysTo(name){
 }
 
 function happyHolidayTo(holiday, name){
+  holiday===String.toLowerCase
   return ` Happy ${holiday}, ${name}!`
 }
 
